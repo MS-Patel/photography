@@ -1119,7 +1119,7 @@ h1 {
     -webkit-transition: all .3s ease;
 }
 
-@media (max-width:660px) {
+@media (min-width:10px) {
     .last-work-det-inner {
         display: none;
     }
