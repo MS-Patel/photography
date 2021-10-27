@@ -816,7 +816,7 @@ h1 {
 }
 
 .quoteslider {
-    background: url(images/02_Home02/AboutMe/2.jpg)no-repeat;
+    background: url(images/02_Home02/AboutMe/22.jpg)no-repeat;
     background-size: cover;
     padding-top: 0;
 }
@@ -1045,11 +1045,6 @@ h1 {
     margin-bottom: 10px;
 }
 
-#last-work .last-work-gallery .item .main_img {
-    width: 25rem;
-    height: 25rem;
-    border: transparent 5px black;
-}
 
 .homepage-2 #last-work h2 {
     font-size: 30px;
@@ -1119,11 +1114,6 @@ h1 {
     -webkit-transition: all .3s ease;
 }
 
-@media (min-width:10px) {
-    .last-work-det-inner {
-        display: none;
-    }
-}
 
 .last-work-det-inner {
     position: relative;
@@ -1133,10 +1123,12 @@ h1 {
 }
 
 .last-work-det-inner-in {
-    background: #fff;
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
     width: 100%;
     height: 100%;
+
+    Events
 }
 
 .last-work-det-inner-in .div-table {
@@ -1160,8 +1152,9 @@ h1 {
 }
 
 .last-work-det-inner-in p {
-    font-size: 16px;
-    color: #232323;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
     line-height: 22px;
 }
 
