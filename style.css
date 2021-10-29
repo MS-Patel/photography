@@ -321,22 +321,22 @@ h1 {
     display: inline;
 }
 
-.text-block {
-    /* position: absolute; */
-    /* Position the background text */
-    /* bottom: 0; */
-    /* At the bottom. Use top:0 to append it to the top */
-    background: rgb(0, 0, 0);
-    /* Fallback color */
-    background: rgba(0, 0, 0, 0.5);
-    /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    /* Grey text */
-    width: 100%;
-    /* Full width */
-    padding: 20px;
-    /* Some padding */
-}
+/* .text-block { */
+/* position: absolute; */
+/* Position the background text */
+/* bottom: 0; */
+/* At the bottom. Use top:0 to append it to the top */
+/* background: rgb(0, 0, 0); */
+/* Fallback color */
+/* background: rgba(0, 0, 0, 0.5); */
+/* Black background with 0.5 opacity */
+/* color: #8b0808; */
+/* Grey text */
+/* width: 100%; */
+/* Full width */
+/* padding: 20px; */
+/* Some padding */
+/* } */
 
 @media (min-width:900px) {
     .slider-img {
@@ -430,25 +430,6 @@ h1 {
     text-transform: none;
 }
 
-.homepage-3 .onslidername h1 span i {}
-
-.homepage-2 .scroll-down {
-    -webkit-transform: rotate(270deg);
-    -moz-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    font-size: 10px;
-    letter-spacing: 3px;
-    position: absolute;
-    left: 0;
-    bottom: 130px;
-    display: inline-block;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.scroll-ct {
-    display: inline-block;
-}
 
 .on-slider-ct {
     margin: 0 auto;

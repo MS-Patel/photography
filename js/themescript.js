@@ -1,32 +1,7 @@
 jQuery(document).ready(function ($) {
 	"use strict";
     /*------------------------------- slider ---------------------------------------*/
-    $(function(){
-        $('#mainslider').slick({
-            dots: false,
-            infinite: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'linear',
-            navigation: false,
-            prevArrow: $('.prev'),
-            nextArrow: $('.next'),
-        });
-        $('#onquote').slick({
-            dots: true,
-            infinite: true,
-            speed: 500,
-            navigation: false,
-            pagination:false,
-        });
-        $('#twitslide').slick({
-            dots: false,
-            infinite: true,
-            speed: 500,
-            navigation: false,
-            pagination:false,
-        });
-    });
+    
     /*------------------------------- Lightbox ---------------------------------------*/
     $(function(){
         $("a[data-rel^='prettyPhoto']").prettyPhoto({
